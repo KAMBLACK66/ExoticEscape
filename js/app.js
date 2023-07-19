@@ -131,7 +131,7 @@ document.body.addEventListener("mouseout", function () {
   cursor.classList.add("disabled");
 });
 
-// remove diabled class on cursorElement, when mouse in the body
+// remove disabled class on cursorElement, when mouse in the body
 document.body.addEventListener("mouseover", function () {
   cursor.classList.remove("disabled");
 });
